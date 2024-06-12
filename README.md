@@ -1,6 +1,6 @@
 ## ToDoList Project
 
-This project is a Todo application built using Laravel, Vue.js, and Tailwind CSS.
+This project is a Todo application built using Laravel, Bootstrap, and Tailwind CSS.
 
 ### Screenshots
 
