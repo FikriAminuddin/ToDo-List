@@ -10,6 +10,10 @@ This project is a Todo application built using Laravel, Vue.js, and Tailwind CSS
 
 ![Todo App Screenshot](/doc/screenshots/3.png)
 
+![Todo App Screenshot](/doc/screenshots/4.png)
+
+![Todo App Screenshot](/doc/screenshots/5.png)
+
 ### Features
 
 - **Create Todo:** Users can add new todo items by typing in the input field and pressing enter.
