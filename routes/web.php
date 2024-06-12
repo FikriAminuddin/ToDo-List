@@ -10,7 +10,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [HomeController::class, 'index'])->name('home');
+// Route::get('/tasks/index', [App\Http\Controllers\TaskController::class, 'index'])->name('index');
 
 Route::prefix('tasks')->as('tasks.')->controller(TaskController::class)->group(function(){
     Route::get('index', 'index')->name('index');
@@ -20,6 +20,4 @@ Route::prefix('tasks')->as('tasks.')->controller(TaskController::class)->group(f
     Route::get('{id}/edit', 'edit')->name('edit');
     Route::put('update', 'update')->name('update');
     Route::delete('destroy', 'destroy')->name('destroy');
-
-    // Route::resources('tasks', TaskController::class);
 });
